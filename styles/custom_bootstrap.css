@@ -2,7 +2,7 @@
    COLORS
    ============================================== */
 
-   @import url('https://fonts.googleapis.com/css?family=Righteous|Ubuntu+Condensed');
+
 
 /*  ==============================================
     CONTAINER FLUID
@@ -129,7 +129,6 @@
 .logo > img{
     width: 100%;
     height: auto;
-    max-height: 
 }
 
 .copyright{
@@ -157,8 +156,6 @@
 
     body, html{
         font-size: 14px;
-        background-color: rgba(242, 232, 195, 1);
-        font-family: 'Ubuntu Condensed', sans-serif;
     }
 
     body{
@@ -170,10 +167,6 @@
         padding: 15px;
     }
     
-    h1, h3, h4, h5, h6{
-        font-family: 'Righteous', cursive ;
-    }
-
     h1{
         text-transform: uppercase; 
         font-size: 2rem;
@@ -181,7 +174,6 @@
     
     h2{
         font-size: 1rem;
-        font-family: 'Ubuntu Condensed', sans-serif;
     }
 
     h4{
@@ -254,6 +246,7 @@
 }
 
 .row-filmbeelden{
+    background-color: white;
     margin: 0;
     padding: 0;
 }
@@ -294,11 +287,13 @@
    MAIN CONTENT
    ============================================== */
 .main-content{
+    background-color: white;
     padding-left: 5%;
 }
 
 
 .filmrij{
+    background-color: lightgray;
     margin-bottom: 15px;
     margin-right: -140px;
     padding-right: 80px;
@@ -345,19 +340,15 @@
 
 .logo{
     margin: 0 auto;
-    padding: 15px 30px;
+    padding: 0;
 }
 
 .logo > img{
-    width: 50px;
-    height: auto;
-    max-height: 75px;
     box-sizing: border-box;
+    max-height: 100%;
+    max-width: 100%
 }
 
-.copyright{
-    padding: 15px;
-}
 
 /* ==============================================
    FILMNUMBERS LIJN
@@ -378,10 +369,6 @@
    ============================================== */
     body, html{
         font-size: 16px;
-    }
-
-    body{
-        background-color: rgba(242, 232, 195, 1)
     }
     
     article {
@@ -424,7 +411,7 @@ button{
     margin-right: 20px;
 
     font-size: 1rem;
-    text-transform: lowercase;
+    text-transform: uppercase;
     font-weight: 700;
     color: white;
 }
@@ -464,6 +451,7 @@ button:hover{
         }
 
         .filmrij{
+            background-color: lightgray;
             margin-bottom: 15px;
             min-height: 450px;
             height: auto;
